@@ -1,0 +1,290 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ul {
+  position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+    
+  }
+  
+  li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.877);
+    text-align: center;
+    padding: 15px 50px;
+   
+
+    margin: 0px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: white;
+  }
+  #shop{
+    
+    background-color: rgba(128, 128, 128, 0.24);
+    height: 30px;
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    height: 30px;
+    max-height: 40px;
+    max-width: 200%;
+    
+  }
+  #shop a{
+    text-decoration: none;
+    
+  }
+  #shop a:hover{
+    text-decoration: underline;
+  }
+  .links{
+    display: block;
+    color: rgba(221, 18, 18, 0.877);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #watch{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  #watch a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  #watch i{
+    font-size: 1em;
+  
+  }
+  .series7{
+    display: block;
+    color: rgba(221, 18, 18, 0.877);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+  }
+  h2{
+    text-align: center;
+  }
+  .buy{
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    font-size: larger;
+    
+
+  }
+  .buy a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-weight: lighter;
+
+  }
+  .buy a:hover{
+    text-decoration: underline;
+    
+  }
+  .buy a:visited{
+    color: blue;
+    text-decoration: none;
+  }
+  .buy a:active{
+    text-decoration: none;
+    color: blue;
+  }
+  .p1{
+    background: rgba(216, 226, 226, 0.34);
+  }
+  .p2{
+    background: rgba(216, 226, 226, 0.34);
+    margin-top: 2px;
+  }
+  
+  #w{
+    
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+    #iphone{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    #pro13{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:60px
+
+    }
+    #oh{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+    margin-top: -20px;   }
+  #p3{
+background: #35283C;
+text-align: center;
+  }
+  #i13{
+    color: rgb(255, 255, 255);
+    text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:60px
+
+  }
+  #super{
+color: lightpink;
+text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+    margin-top: -3%;  
+
+  }
+  .row {
+    display: flex;
+
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0px;
+    text-align: center;
+    background: rgba(216, 226, 226, 0.34);
+    margin-left:4px;
+  }
+  #yy {
+ 
+height: 300px;
+}
+#ipad1{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#maga{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imac{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#hello{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#card{
+  display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+#rr{
+  font-size: larger;
+}
+#text{
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(216, 226, 226, 0.34);
+padding-left: 80px;
+padding-right: 80px;
+}
+.page7{
+  width: 100%;
+  margin-top: 16px;
+  background-color:#eeeef3e7 ;
+  padding-left: 80px;
+  font-size: smaller;
+}
+
+.list{
+  display:flex;
+  /* text-align: center; */
+  margin-left: 28px;
+  column-gap: 60px;
+  
+
+  /* padding-left: 30%;
+  padding-right:40% ; */
+  
+}
+
+.li11 a{
+  padding-left: 5px;
+  text-decoration: none;
+  color: black;
+  padding-top: 30px;
+}
+.headed{
+  font-weight: bold;
+}
+.finda{
+  /* text-align: center ; */
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.finda a{
+  text-decoration: none;
+  color: blue;
+}
+.finda a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.finda a:visited{
+  color: blue;
+}
+.footer-legal-copyright {
+  margin-right: 30px;
+  float: left;
+  margin-top: 3px;
+  /* background:rgba(216, 226, 226, 0.34); */
+}
+
+.footer-legal-links {
+float: left;
+}
+
+.footer-legal-links a {
+border-right: 1px solid #d6d6d6;
+margin-right: 10px;
+padding-right: 12px;
+display: inline-block;
+margin-top: 3px;
+white-space: nowrap;
+color: #555;
+}
+
+
+
+.footer-legal-links a:hover {
+color: #333;
+}
